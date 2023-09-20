@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+
+.text {
+    color: pink;
+}
+
+div {
+    color: red;
+}
+
+
+* {
+    color: yellowgreen;
+}
+
+.text {
+    color: pink;
+}
+
+div {
+    color: red;
+}
+
+div.text p {
+    color: blue;
+}
+
+p .link {
+    color: cyan;
+}
+
+p a {
+    color: chocolate;
+}
+
+[class*="item"] {
+    color: darkgreen;
+}
+
+[class*="item"] span {
+    color: rgb(168, 30, 72);
+}
+
+#top {
+    color: blueviolet;
+}
+
+#summary {
+    color: blueviolet;
+}
+
+.text.text-wrap {
+    color: darkorange;
+}
+
+.text.text-wrap * {
+    color: darkorange;
+}
+
+.text * {
+    color: darkorange;
+}
+
+.text p {
+    color: darkorange;
+}
+
+.text .discr {
+    color: darkorange;
+}
+
+.list>.point {
+    color: aquamarine;
+}
+
+.item.point {
+    color: rgb(229, 213, 34);
+}
+
+.title-secondary~h3 {
+    color: rgb(39, 110, 243);
+}
+
+h2+p {
+    color: hotpink;
+}
+
+h2,
+p {
+    color: teal;
+}
+
+* {
+    color: azure !important;
+}
