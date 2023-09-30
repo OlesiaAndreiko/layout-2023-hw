@@ -94,6 +94,12 @@ body {
     line-height: 1.27;
     color: #37393F;    
 }
+
+.heading-project {
+    font-weight: 700;
+    font-size: 40px;
+}
+
 .content .slogan {
     font-size: 20px;
     color: #6B77E5;
